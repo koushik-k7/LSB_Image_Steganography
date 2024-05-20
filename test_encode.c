@@ -16,7 +16,9 @@ int main(int argc, char **argv)
     
     if (argc >= 3)
     {
+
 	int ret = check_operation_type(argv);
+
 	
 	if (ret == e_encode)
 	{
